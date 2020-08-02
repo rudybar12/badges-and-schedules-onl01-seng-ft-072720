@@ -19,3 +19,14 @@ def assign_rooms(names)
   end
   room_assignments
 end
+
+def printer(names)
+  badges = batch_badge_creator(names)
+  badges.each do |el|
+    puts el
+  end
+  assignments = assign_rooms(names)
+  assignments.each do |el|
+    puts ess
+  end
+end
